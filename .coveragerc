@@ -1,0 +1,6 @@
+[run]
+omit =
+    tests/*
+    sklearn_local/*
+    sklearn_local2/*
+relative_files = True

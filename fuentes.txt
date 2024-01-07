@@ -1,0 +1,2 @@
+Unicode Standard PDF:
+https://unicode.org/charts/PDF/U0370.pdf

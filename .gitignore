@@ -1,0 +1,11 @@
+.idea
+*.pyc
+.vscode
+.coverage
+.coverage.*
+coverage.xml
+test_report.txt
+
+build/
+dist/
+main.spec

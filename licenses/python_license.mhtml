@@ -1,0 +1,2775 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://docs.python.org/3.10/license.html
+Subject: =?utf-8?Q?History=20and=20License=20=E2=80=94=20Python=203.10.12=20docume?=
+ =?utf-8?Q?ntation?=
+Date: Tue, 4 Jul 2023 18:02:21 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--nFe43ic2irP2y7PNg5INpmrOg6rnJqsLsYw1R64NUg----"
+
+
+------MultipartBoundary--nFe43ic2irP2y7PNg5INpmrOg6rnJqsLsYw1R64NUg----
+Content-Type: text/html
+Content-ID: <frame-1235B56B0F2823DC59BB6CFD8DE6BE19@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.python.org/3.10/license.html
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-ef8bcdac-f39d-4bec-ac90-5503f7b47722@mhtml.blink" />
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0"><meta name=3D"generator" content=3D"Docutils 0.17.1: http://docutil=
+s.sourceforge.net/">
+
+    <title>History and License =E2=80=94 Python 3.10.12 documentation</titl=
+e><meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+   =20
+    <link rel=3D"stylesheet" href=3D"https://docs.python.org/3.10/_static/p=
+ygments.css" type=3D"text/css">
+    <link rel=3D"stylesheet" href=3D"https://docs.python.org/3.10/_static/p=
+ydoctheme.css?2022.1" type=3D"text/css">
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+    <link rel=3D"search" type=3D"application/opensearchdescription+xml" tit=
+le=3D"Search within Python 3.10.12 documentation" href=3D"https://docs.pyth=
+on.org/3.10/_static/opensearch.xml">
+    <link rel=3D"author" title=3D"About these documents" href=3D"https://do=
+cs.python.org/3.10/about.html">
+    <link rel=3D"index" title=3D"Index" href=3D"https://docs.python.org/3.1=
+0/genindex.html">
+    <link rel=3D"search" title=3D"Search" href=3D"https://docs.python.org/3=
+.10/search.html">
+    <link rel=3D"copyright" title=3D"Copyright" href=3D"https://docs.python=
+.org/3.10/copyright.html">
+    <link rel=3D"next" title=3D"Distributing Python Modules (Legacy version=
+)" href=3D"https://docs.python.org/3.10/distutils/index.html">
+    <link rel=3D"prev" title=3D"Copyright" href=3D"https://docs.python.org/=
+3.10/copyright.html">
+    <link rel=3D"canonical" href=3D"https://docs.python.org/3/license.html"=
+>
+   =20
+     =20
+   =20
+
+   =20
+   =20
+<link rel=3D"shortcut icon" type=3D"image/png" href=3D"https://docs.python.=
+org/3.10/_static/py.svg">
+           =20
+            =20
+
+  </head>
+<body>
+<div class=3D"mobile-nav">
+    <input type=3D"checkbox" id=3D"menuToggler" class=3D"toggler__input" ar=
+ia-controls=3D"navigation" aria-pressed=3D"false" aria-expanded=3D"false" r=
+ole=3D"button" aria-label=3D"Menu">
+    <label for=3D"menuToggler" class=3D"toggler__label">
+        <span></span>
+    </label>
+    <nav class=3D"nav-content" role=3D"navigation">
+         <a href=3D"https://www.python.org/" class=3D"nav-logo">
+             <img src=3D"https://docs.python.org/3.10/_static/py.svg" alt=
+=3D"Logo">
+         </a>
+        <div class=3D"version_switcher_placeholder"><select id=3D"version_s=
+elect"><option value=3D"3.13">dev (3.13)</option><option value=3D"3.12">pre=
+ (3.12)</option><option value=3D"3.11">3.11</option><option value=3D"3.10" =
+selected=3D"selected">3.10.12</option><option value=3D"3.9">3.9</option><op=
+tion value=3D"3.8">3.8</option><option value=3D"3.7">3.7</option><option va=
+lue=3D"3.6">3.6</option><option value=3D"3.5">3.5</option><option value=3D"=
+2.7">2.7</option></select></div>
+        <form role=3D"search" class=3D"search" action=3D"https://docs.pytho=
+n.org/3.10/search.html" method=3D"get">
+            <svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"20" height=
+=3D"20" viewBox=3D"0 0 24 24" class=3D"search-icon">
+                <path fill-rule=3D"nonzero" d=3D"M15.5 14h-.79l-.28-.27a6.5=
+ 6.5 0 001.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 00-7.27 7.27c.3=
+4 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 005.34-1.48l.27.28v.79l4.25 4.25c.41.41=
+ 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S=
+7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill=3D"#444"></path>
+            </svg>
+            <input type=3D"text" name=3D"q" aria-label=3D"Quick search">
+            <input type=3D"submit" value=3D"Go">
+        </form>
+    </nav>
+    <div class=3D"menu-wrapper">
+        <nav class=3D"menu" role=3D"navigation" aria-label=3D"main navigati=
+on" tabindex=3D"-1">
+            <div class=3D"language_switcher_placeholder"><select id=3D"lang=
+uage_select"><option value=3D"en" selected=3D"selected">English</option><op=
+tion value=3D"es">Spanish</option><option value=3D"fr">French</option><opti=
+on value=3D"ja">Japanese</option><option value=3D"ko">Korean</option><optio=
+n value=3D"pt-br">Brazilian Portuguese</option><option value=3D"tr">Turkish=
+</option><option value=3D"zh-cn">Simplified Chinese</option><option value=
+=3D"zh-tw">Traditional Chinese</option></select></div>
+  <h3><a href=3D"https://docs.python.org/3.10/contents.html">Table of Conte=
+nts</a></h3>
+  <ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#">History and License</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#history-of-the-software">History of the software</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#terms-and-conditions-for-accessing-or-otherwise-using-python">Te=
+rms and conditions for accessing or otherwise using Python</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#psf-license-agreement-for-python-release">PSF LICENSE AGREEMENT =
+FOR PYTHON 3.10.12</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#beopen-com-license-agreement-for-python-2-0">BEOPEN.COM LICENSE =
+AGREEMENT FOR PYTHON 2.0</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#cnri-license-agreement-for-python-1-6-1">CNRI LICENSE AGREEMENT =
+FOR PYTHON 1.6.1</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#cwi-license-agreement-for-python-0-9-0-through-1-2">CWI LICENSE =
+AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#zero-clause-bsd-license-for-code-in-the-python-release-documenta=
+tion">ZERO-CLAUSE BSD LICENSE FOR CODE IN THE PYTHON 3.10.12 DOCUMENTATION<=
+/a></li>
+</ul>
+</li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#licenses-and-acknowledgements-for-incorporated-software">License=
+s and Acknowledgements for Incorporated Software</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#mersenne-twister">Mersenne Twister</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#sockets">Sockets</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#asynchronous-socket-services">Asynchronous socket services</a></=
+li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#cookie-management">Cookie management</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#execution-tracing">Execution tracing</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#uuencode-and-uudecode-functions">UUencode and UUdecode functions=
+</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#xml-remote-procedure-calls">XML Remote Procedure Calls</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#test-epoll">test_epoll</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#select-kqueue">Select kqueue</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#siphash24">SipHash24</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#strtod-and-dtoa">strtod and dtoa</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#openssl">OpenSSL</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#expat">expat</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#libffi">libffi</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#zlib">zlib</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#cfuhash">cfuhash</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#libmpdec">libmpdec</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#w3c-c14n-test-suite">W3C C14N test suite</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#audioop">Audioop</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class=3D"topless"><a href=3D"https://docs.python.org/3.10/copyright.ht=
+ml" title=3D"previous chapter">Copyright</a></p>
+  <h4>Next topic</h4>
+  <p class=3D"topless"><a href=3D"https://docs.python.org/3.10/distutils/in=
+dex.html" title=3D"next chapter">Distributing Python Modules (Legacy versio=
+n)</a></p>
+  <div role=3D"note" aria-label=3D"source link">
+    <h3>This Page</h3>
+    <ul class=3D"this-page-menu">
+      <li><a href=3D"https://docs.python.org/3.10/bugs.html">Report a Bug</=
+a></li>
+      <li>
+        <a href=3D"https://github.com/python/cpython/blob/3.10/Doc/license.=
+rst" rel=3D"nofollow">Show Source
+        </a>
+      </li>
+    </ul>
+  </div>
+        </nav>
+    </div>
+</div>
+
+ =20
+    <div class=3D"related" role=3D"navigation" aria-label=3D"related naviga=
+tion">
+      <h3>Navigation</h3>
+      <ul>
+        <li class=3D"right" style=3D"margin-right: 10px">
+          <a href=3D"https://docs.python.org/3.10/genindex.html" title=3D"G=
+eneral Index" accesskey=3D"I">index</a></li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3.10/py-modindex.html" title=
+=3D"Python Module Index">modules</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3.10/distutils/index.html" tit=
+le=3D"Distributing Python Modules (Legacy version)" accesskey=3D"N">next</a=
+> |</li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3.10/copyright.html" title=3D"=
+Copyright" accesskey=3D"P">previous</a> |</li>
+
+          <li><img src=3D"https://docs.python.org/3.10/_static/py.svg" alt=
+=3D"python logo" style=3D"vertical-align: middle; margin-top: -1px"></li>
+          <li><a href=3D"https://www.python.org/">Python</a> =C2=BB</li>
+          <li class=3D"switchers">
+            <div class=3D"language_switcher_placeholder"><select id=3D"lang=
+uage_select"><option value=3D"en" selected=3D"selected">English</option><op=
+tion value=3D"es">Spanish</option><option value=3D"fr">French</option><opti=
+on value=3D"ja">Japanese</option><option value=3D"ko">Korean</option><optio=
+n value=3D"pt-br">Brazilian Portuguese</option><option value=3D"tr">Turkish=
+</option><option value=3D"zh-cn">Simplified Chinese</option><option value=
+=3D"zh-tw">Traditional Chinese</option></select></div>
+            <div class=3D"version_switcher_placeholder"><select id=3D"versi=
+on_select"><option value=3D"3.13">dev (3.13)</option><option value=3D"3.12"=
+>pre (3.12)</option><option value=3D"3.11">3.11</option><option value=3D"3.=
+10" selected=3D"selected">3.10.12</option><option value=3D"3.9">3.9</option=
+><option value=3D"3.8">3.8</option><option value=3D"3.7">3.7</option><optio=
+n value=3D"3.6">3.6</option><option value=3D"3.5">3.5</option><option value=
+=3D"2.7">2.7</option></select></div>
+          </li>
+          <li>
+             =20
+          </li>
+    <li id=3D"cpython-language-and-version">
+      <a href=3D"https://docs.python.org/3.10/index.html">3.10.12 Documenta=
+tion</a> =C2=BB
+    </li>
+
+        <li class=3D"nav-item nav-item-this"><a href=3D"https://docs.python=
+.org/3.10/license.html">History and License</a></li>
+                <li class=3D"right">
+                   =20
+
+    <div class=3D"inline-search" role=3D"search">
+        <form class=3D"inline-search" action=3D"https://docs.python.org/3.1=
+0/search.html" method=3D"get">
+          <input placeholder=3D"Quick search" aria-label=3D"Quick search" t=
+ype=3D"text" name=3D"q">
+          <input type=3D"submit" value=3D"Go">
+         =20
+         =20
+        </form>
+    </div>
+                     |
+                </li>
+           =20
+      </ul>
+    </div>   =20
+
+    <div class=3D"document">
+      <div class=3D"documentwrapper">
+        <div class=3D"bodywrapper">
+          <div class=3D"body" role=3D"main">
+           =20
+  <section id=3D"history-and-license">
+<span id=3D"id1"></span><h1>History and License<a class=3D"headerlink" href=
+=3D"https://docs.python.org/3.10/license.html#history-and-license" title=3D=
+"Permalink to this headline">=C2=B6</a></h1>
+<section id=3D"history-of-the-software">
+<h2>History of the software<a class=3D"headerlink" href=3D"https://docs.pyt=
+hon.org/3.10/license.html#history-of-the-software" title=3D"Permalink to th=
+is headline">=C2=B6</a></h2>
+<p>Python was created in the early 1990s by Guido van Rossum at Stichting
+Mathematisch Centrum (CWI, see <a class=3D"reference external" href=3D"http=
+s://www.cwi.nl/">https://www.cwi.nl/</a>) in the Netherlands as a
+successor of a language called ABC.  Guido remains Python=E2=80=99s princip=
+al author,
+although it includes many contributions from others.</p>
+<p>In 1995, Guido continued his work on Python at the Corporation for Natio=
+nal
+Research Initiatives (CNRI, see <a class=3D"reference external" href=3D"htt=
+ps://www.cnri.reston.va.us/">https://www.cnri.reston.va.us/</a>) in Reston,
+Virginia where he released several versions of the software.</p>
+<p>In May 2000, Guido and the Python core development team moved to BeOpen.=
+com to
+form the BeOpen PythonLabs team.  In October of the same year, the PythonLa=
+bs
+team moved to Digital Creations (now Zope Corporation; see
+<a class=3D"reference external" href=3D"https://www.zope.org/">https://www.=
+zope.org/</a>).  In 2001, the Python Software Foundation (PSF, see
+<a class=3D"reference external" href=3D"https://www.python.org/psf/">https:=
+//www.python.org/psf/</a>) was formed, a non-profit organization created
+specifically to own Python-related Intellectual Property.  Zope Corporation=
+ is a
+sponsoring member of the PSF.</p>
+<p>All Python releases are Open Source (see <a class=3D"reference external"=
+ href=3D"https://opensource.org/">https://opensource.org/</a> for the Open
+Source Definition). Historically, most, but not all, Python releases have a=
+lso
+been GPL-compatible; the table below summarizes the various releases.</p>
+<div class=3D"responsive-table__container"><table class=3D"docutils align-d=
+efault">
+<colgroup>
+<col style=3D"width: 23%">
+<col style=3D"width: 20%">
+<col style=3D"width: 17%">
+<col style=3D"width: 17%">
+<col style=3D"width: 24%">
+</colgroup>
+<thead>
+<tr class=3D"row-odd"><th class=3D"head"><p>Release</p></th>
+<th class=3D"head"><p>Derived from</p></th>
+<th class=3D"head"><p>Year</p></th>
+<th class=3D"head"><p>Owner</p></th>
+<th class=3D"head"><p>GPL compatible?</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class=3D"row-even"><td><p>0.9.0 thru 1.2</p></td>
+<td><p>n/a</p></td>
+<td><p>1991-1995</p></td>
+<td><p>CWI</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class=3D"row-odd"><td><p>1.3 thru 1.5.2</p></td>
+<td><p>1.2</p></td>
+<td><p>1995-1999</p></td>
+<td><p>CNRI</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class=3D"row-even"><td><p>1.6</p></td>
+<td><p>1.5.2</p></td>
+<td><p>2000</p></td>
+<td><p>CNRI</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class=3D"row-odd"><td><p>2.0</p></td>
+<td><p>1.6</p></td>
+<td><p>2000</p></td>
+<td><p>BeOpen.com</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class=3D"row-even"><td><p>1.6.1</p></td>
+<td><p>1.6</p></td>
+<td><p>2001</p></td>
+<td><p>CNRI</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class=3D"row-odd"><td><p>2.1</p></td>
+<td><p>2.0+1.6.1</p></td>
+<td><p>2001</p></td>
+<td><p>PSF</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class=3D"row-even"><td><p>2.0.1</p></td>
+<td><p>2.0+1.6.1</p></td>
+<td><p>2001</p></td>
+<td><p>PSF</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class=3D"row-odd"><td><p>2.1.1</p></td>
+<td><p>2.1+2.0.1</p></td>
+<td><p>2001</p></td>
+<td><p>PSF</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class=3D"row-even"><td><p>2.1.2</p></td>
+<td><p>2.1.1</p></td>
+<td><p>2002</p></td>
+<td><p>PSF</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class=3D"row-odd"><td><p>2.1.3</p></td>
+<td><p>2.1.2</p></td>
+<td><p>2002</p></td>
+<td><p>PSF</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class=3D"row-even"><td><p>2.2 and above</p></td>
+<td><p>2.1.1</p></td>
+<td><p>2001-now</p></td>
+<td><p>PSF</p></td>
+<td><p>yes</p></td>
+</tr>
+</tbody>
+</table></div>
+<div class=3D"admonition note">
+<p class=3D"admonition-title">Note</p>
+<p>GPL-compatible doesn=E2=80=99t mean that we=E2=80=99re distributing Pyth=
+on under the GPL.  All
+Python licenses, unlike the GPL, let you distribute a modified version with=
+out
+making your changes open source. The GPL-compatible licenses make it possib=
+le to
+combine Python with other software that is released under the GPL; the othe=
+rs
+don=E2=80=99t.</p>
+</div>
+<p>Thanks to the many outside volunteers who have worked under Guido=E2=80=
+=99s direction to
+make these releases possible.</p>
+</section>
+<section id=3D"terms-and-conditions-for-accessing-or-otherwise-using-python=
+">
+<h2>Terms and conditions for accessing or otherwise using Python<a class=3D=
+"headerlink" href=3D"https://docs.python.org/3.10/license.html#terms-and-co=
+nditions-for-accessing-or-otherwise-using-python" title=3D"Permalink to thi=
+s headline">=C2=B6</a></h2>
+<p>Python software and documentation are licensed under the
+<a class=3D"reference internal" href=3D"https://docs.python.org/3.10/licens=
+e.html#psf-license"><span class=3D"std std-ref">PSF License Agreement</span=
+></a>.</p>
+<p>Starting with Python 3.8.6, examples, recipes, and other code in
+the documentation are dual licensed under the PSF License Agreement
+and the <a class=3D"reference internal" href=3D"https://docs.python.org/3.1=
+0/license.html#bsd0"><span class=3D"std std-ref">Zero-Clause BSD license</s=
+pan></a>.</p>
+<p>Some software incorporated into Python is under different licenses.
+The licenses are listed with code falling under that license.
+See <a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#otherlicenses"><span class=3D"std std-ref">Licenses and Acknowle=
+dgements for Incorporated Software</span></a> for an incomplete list of the=
+se licenses.</p>
+<section id=3D"psf-license-agreement-for-python-release">
+<span id=3D"psf-license"></span><h3>PSF LICENSE AGREEMENT FOR PYTHON 3.10.1=
+2<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/license.html#=
+psf-license-agreement-for-python-release" title=3D"Permalink to this headli=
+ne">=C2=B6</a></h3>
+<pre class=3D"literal-block">1. This LICENSE AGREEMENT is between the Pytho=
+n Software Foundation ("PSF"), and
+   the Individual or Organization ("Licensee") accessing and otherwise usin=
+g Python
+   3.10.12 software in source or binary form and its associated documentati=
+on.
+
+2. Subject to the terms and conditions of this License Agreement, PSF hereb=
+y
+   grants Licensee a nonexclusive, royalty-free, world-wide license to repr=
+oduce,
+   analyze, test, perform and/or display publicly, prepare derivative works=
+,
+   distribute, and otherwise use Python 3.10.12 alone or in any derivative
+   version, provided, however, that PSF's License Agreement and PSF's notic=
+e of
+   copyright, i.e., "Copyright =C2=A9 2001-2023 Python Software Foundation;=
+ All Rights
+   Reserved" are retained in Python 3.10.12 alone or in any derivative vers=
+ion
+   prepared by Licensee.
+
+3. In the event Licensee prepares a derivative work that is based on or
+   incorporates Python 3.10.12 or any part thereof, and wants to make the
+   derivative work available to others as provided herein, then Licensee he=
+reby
+   agrees to include in any such work a brief summary of the changes made t=
+o Python
+   3.10.12.
+
+4. PSF is making Python 3.10.12 available to Licensee on an "AS IS" basis.
+   PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY =
+OF
+   EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND DISCLAIMS ANY REPRESENTATI=
+ON OR
+   WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THA=
+T THE
+   USE OF PYTHON 3.10.12 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 3.10.12
+   FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESUL=
+T OF
+   MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 3.10.12, OR ANY DERIV=
+ATIVE
+   THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+6. This License Agreement will automatically terminate upon a material brea=
+ch of
+   its terms and conditions.
+
+7. Nothing in this License Agreement shall be deemed to create any relation=
+ship
+   of agency, partnership, or joint venture between PSF and Licensee.  This=
+ License
+   Agreement does not grant permission to use PSF trademarks or trade name =
+in a
+   trademark sense to endorse or promote products or services of Licensee, =
+or any
+   third party.
+
+8. By copying, installing or otherwise using Python 3.10.12, Licensee agree=
+s
+   to be bound by the terms and conditions of this License Agreement.</pre>
+</section>
+<section id=3D"beopen-com-license-agreement-for-python-2-0">
+<h3>BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0<a class=3D"headerlink" href=
+=3D"https://docs.python.org/3.10/license.html#beopen-com-license-agreement-=
+for-python-2-0" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>BEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>1. This LICENSE AGREEMENT is between BeOpen.com ("BeOpen"), havin=
+g an office at
+   160 Saratoga Avenue, Santa Clara, CA 95051, and the Individual or Organi=
+zation
+   ("Licensee") accessing and otherwise using this software in source or bi=
+nary
+   form and its associated documentation ("the Software").
+
+2. Subject to the terms and conditions of this BeOpen Python License Agreem=
+ent,
+   BeOpen hereby grants Licensee a non-exclusive, royalty-free, world-wide =
+license
+   to reproduce, analyze, test, perform and/or display publicly, prepare de=
+rivative
+   works, distribute, and otherwise use the Software alone or in any deriva=
+tive
+   version, provided, however, that the BeOpen Python License is retained i=
+n the
+   Software, alone or in any derivative version prepared by Licensee.
+
+3. BeOpen is making the Software available to Licensee on an "AS IS" basis.
+   BEOPEN MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY W=
+AY OF
+   EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND DISCLAIMS ANY REPRESENT=
+ATION OR
+   WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THA=
+T THE
+   USE OF THE SOFTWARE WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE SOFTWAR=
+E FOR
+   ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF=
+ USING,
+   MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY DERIVATIVE THEREOF, EVEN =
+IF
+   ADVISED OF THE POSSIBILITY THEREOF.
+
+5. This License Agreement will automatically terminate upon a material brea=
+ch of
+   its terms and conditions.
+
+6. This License Agreement shall be governed by and interpreted in all respe=
+cts
+   by the law of the State of California, excluding conflict of law provisi=
+ons.
+   Nothing in this License Agreement shall be deemed to create any relation=
+ship of
+   agency, partnership, or joint venture between BeOpen and Licensee.  This=
+ License
+   Agreement does not grant permission to use BeOpen trademarks or trade na=
+mes in a
+   trademark sense to endorse or promote products or services of Licensee, =
+or any
+   third party.  As an exception, the "BeOpen Python" logos available at
+   http://www.pythonlabs.com/logos.html may be used according to the permis=
+sions
+   granted on that web page.
+
+7. By copying, installing or otherwise using the software, Licensee agrees =
+to be
+   bound by the terms and conditions of this License Agreement.
+</pre></div>
+</div>
+</section>
+<section id=3D"cnri-license-agreement-for-python-1-6-1">
+<h3>CNRI LICENSE AGREEMENT FOR PYTHON 1.6.1<a class=3D"headerlink" href=3D"=
+https://docs.python.org/3.10/license.html#cnri-license-agreement-for-python=
+-1-6-1" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>1. This LICENSE AGREEMENT is between the Corporation for National=
+ Research
+   Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20=
+191
+   ("CNRI"), and the Individual or Organization ("Licensee") accessing and
+   otherwise using Python 1.6.1 software in source or binary form and its
+   associated documentation.
+
+2. Subject to the terms and conditions of this License Agreement, CNRI here=
+by
+   grants Licensee a nonexclusive, royalty-free, world-wide license to repr=
+oduce,
+   analyze, test, perform and/or display publicly, prepare derivative works=
+,
+   distribute, and otherwise use Python 1.6.1 alone or in any derivative ve=
+rsion,
+   provided, however, that CNRI's License Agreement and CNRI's notice of co=
+pyright,
+   i.e., "Copyright =C2=A9 1995-2001 Corporation for National Research Init=
+iatives; All
+   Rights Reserved" are retained in Python 1.6.1 alone or in any derivative=
+ version
+   prepared by Licensee.  Alternately, in lieu of CNRI's License Agreement,
+   Licensee may substitute the following text (omitting the quotes): "Pytho=
+n 1.6.1
+   is made available subject to the terms and conditions in CNRI's License
+   Agreement.  This Agreement together with Python 1.6.1 may be located on =
+the
+   internet using the following unique, persistent identifier (known as a h=
+andle):
+   1895.22/1013.  This Agreement may also be obtained from a proxy server o=
+n the
+   internet using the following URL: http://hdl.handle.net/1895.22/1013."
+
+3. In the event Licensee prepares a derivative work that is based on or
+   incorporates Python 1.6.1 or any part thereof, and wants to make the der=
+ivative
+   work available to others as provided herein, then Licensee hereby agrees=
+ to
+   include in any such work a brief summary of the changes made to Python 1=
+.6.1.
+
+4. CNRI is making Python 1.6.1 available to Licensee on an "AS IS" basis.  =
+CNRI
+   MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY OF E=
+XAMPLE,
+   BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WA=
+RRANTY
+   OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE=
+ OF
+   PYTHON 1.6.1 WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON 1.6.1 =
+FOR
+   ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF
+   MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1, OR ANY DERIVAT=
+IVE
+   THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+6. This License Agreement will automatically terminate upon a material brea=
+ch of
+   its terms and conditions.
+
+7. This License Agreement shall be governed by the federal intellectual pro=
+perty
+   law of the United States, including without limitation the federal copyr=
+ight
+   law, and, to the extent such U.S. federal law does not apply, by the law=
+ of the
+   Commonwealth of Virginia, excluding Virginia's conflict of law provision=
+s.
+   Notwithstanding the foregoing, with regard to derivative works based on =
+Python
+   1.6.1 that incorporate non-separable material that was previously distri=
+buted
+   under the GNU General Public License (GPL), the law of the Commonwealth =
+of
+   Virginia shall govern this License Agreement only as to issues arising u=
+nder or
+   with respect to Paragraphs 4, 5, and 7 of this License Agreement.  Nothi=
+ng in
+   this License Agreement shall be deemed to create any relationship of age=
+ncy,
+   partnership, or joint venture between CNRI and Licensee.  This License A=
+greement
+   does not grant permission to use CNRI trademarks or trade name in a trad=
+emark
+   sense to endorse or promote products or services of Licensee, or any thi=
+rd
+   party.
+
+8. By clicking on the "ACCEPT" button where indicated, or by copying, insta=
+lling
+   or otherwise using Python 1.6.1, Licensee agrees to be bound by the term=
+s and
+   conditions of this License Agreement.
+</pre></div>
+</div>
+</section>
+<section id=3D"cwi-license-agreement-for-python-0-9-0-through-1-2">
+<h3>CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2<a class=3D"headerlin=
+k" href=3D"https://docs.python.org/3.10/license.html#cwi-license-agreement-=
+for-python-0-9-0-through-1-2" title=3D"Permalink to this headline">=C2=B6</=
+a></h3>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright =C2=A9 1991 - 1995, Stichting Mathematisch Centrum Amst=
+erdam, The
+Netherlands.  All rights reserved.
+
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted, provided t=
+hat
+the above copyright notice appear in all copies and that both that copyrigh=
+t
+notice and this permission notice appear in supporting documentation, and t=
+hat
+the name of Stichting Mathematisch Centrum or CWI not be used in advertisin=
+g or
+publicity pertaining to distribution of the software without specific, writ=
+ten
+prior permission.
+
+STICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS
+SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, =
+IN NO
+EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE FOR ANY SPECIAL, INDIR=
+ECT
+OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF U=
+SE,
+DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORT=
+IOUS
+ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+SOFTWARE.
+</pre></div>
+</div>
+</section>
+<section id=3D"zero-clause-bsd-license-for-code-in-the-python-release-docum=
+entation">
+<span id=3D"bsd0"></span><h3>ZERO-CLAUSE BSD LICENSE FOR CODE IN THE PYTHON=
+ 3.10.12 DOCUMENTATION<a class=3D"headerlink" href=3D"https://docs.python.o=
+rg/3.10/license.html#zero-clause-bsd-license-for-code-in-the-python-release=
+-documentation" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Permission to use, copy, modify, and/or distribute this software =
+for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WI=
+TH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT=
+,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE =
+OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+</pre></div>
+</div>
+</section>
+</section>
+<section id=3D"licenses-and-acknowledgements-for-incorporated-software">
+<span id=3D"otherlicenses"></span><h2>Licenses and Acknowledgements for Inc=
+orporated Software<a class=3D"headerlink" href=3D"https://docs.python.org/3=
+.10/license.html#licenses-and-acknowledgements-for-incorporated-software" t=
+itle=3D"Permalink to this headline">=C2=B6</a></h2>
+<p>This section is an incomplete, but growing list of licenses and acknowle=
+dgements
+for third-party software incorporated in the Python distribution.</p>
+<section id=3D"mersenne-twister">
+<h3>Mersenne Twister<a class=3D"headerlink" href=3D"https://docs.python.org=
+/3.10/license.html#mersenne-twister" title=3D"Permalink to this headline">=
+=C2=B6</a></h3>
+<p>The <code class=3D"xref py py-mod docutils literal notranslate"><span cl=
+ass=3D"pre">_random</span></code> module includes code based on a download =
+from
+<a class=3D"reference external" href=3D"http://www.math.sci.hiroshima-u.ac.=
+jp/~m-mat/MT/MT2002/emt19937ar.html">http://www.math.sci.hiroshima-u.ac.jp/=
+~m-mat/MT/MT2002/emt19937ar.html</a>. The following are
+the verbatim comments from the original code:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>A C-program for MT19937, with initialization improved 2002/1/26.
+Coded by Takuji Nishimura and Makoto Matsumoto.
+
+Before using, initialize the state by using init_genrand(seed)
+or init_by_array(init_key, key_length).
+
+Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+ 3. The names of its contributors may not be used to endorse or promote
+    products derived from this software without specific prior written
+    permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER=
+ OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+Any feedback is very welcome.
+http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html
+email: m-mat @ math.sci.hiroshima-u.ac.jp (remove space)
+</pre></div>
+</div>
+</section>
+<section id=3D"sockets">
+<h3>Sockets<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/lic=
+ense.html#sockets" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>The <a class=3D"reference internal" href=3D"https://docs.python.org/3.10=
+/library/socket.html#module-socket" title=3D"socket: Low-level networking i=
+nterface."><code class=3D"xref py py-mod docutils literal notranslate"><spa=
+n class=3D"pre">socket</span></code></a> module uses the functions, <code c=
+lass=3D"xref py py-func docutils literal notranslate"><span class=3D"pre">g=
+etaddrinfo()</span></code>, and
+<code class=3D"xref py py-func docutils literal notranslate"><span class=3D=
+"pre">getnameinfo()</span></code>, which are coded in separate source files=
+ from the WIDE
+Project, <a class=3D"reference external" href=3D"https://www.wide.ad.jp/">h=
+ttps://www.wide.ad.jp/</a>.</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright (C) 1995, 1996, 1997, and 1998 WIDE Project.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. Neither the name of the project nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE PROJECT AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE PROJECT OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+</pre></div>
+</div>
+</section>
+<section id=3D"asynchronous-socket-services">
+<h3>Asynchronous socket services<a class=3D"headerlink" href=3D"https://doc=
+s.python.org/3.10/license.html#asynchronous-socket-services" title=3D"Perma=
+link to this headline">=C2=B6</a></h3>
+<p>The <a class=3D"reference internal" href=3D"https://docs.python.org/3.10=
+/library/asynchat.html#module-asynchat" title=3D"asynchat: Support for asyn=
+chronous command/response protocols. (deprecated)"><code class=3D"xref py p=
+y-mod docutils literal notranslate"><span class=3D"pre">asynchat</span></co=
+de></a> and <a class=3D"reference internal" href=3D"https://docs.python.org=
+/3.10/library/asyncore.html#module-asyncore" title=3D"asyncore: A base clas=
+s for developing asynchronous socket handling services. (deprecated)"><code=
+ class=3D"xref py py-mod docutils literal notranslate"><span class=3D"pre">=
+asyncore</span></code></a> modules contain the following notice:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright 1996 by Sam Rushing
+
+                        All Rights Reserved
+
+Permission to use, copy, modify, and distribute this software and
+its documentation for any purpose and without fee is hereby
+granted, provided that the above copyright notice appear in all
+copies and that both that copyright notice and this permission
+notice appear in supporting documentation, and that the name of Sam
+Rushing not be used in advertising or publicity pertaining to
+distribution of the software without specific, written prior
+permission.
+
+SAM RUSHING DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN
+NO EVENT SHALL SAM RUSHING BE LIABLE FOR ANY SPECIAL, INDIRECT OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+</pre></div>
+</div>
+</section>
+<section id=3D"cookie-management">
+<h3>Cookie management<a class=3D"headerlink" href=3D"https://docs.python.or=
+g/3.10/license.html#cookie-management" title=3D"Permalink to this headline"=
+>=C2=B6</a></h3>
+<p>The <a class=3D"reference internal" href=3D"https://docs.python.org/3.10=
+/library/http.cookies.html#module-http.cookies" title=3D"http.cookies: Supp=
+ort for HTTP state management (cookies)."><code class=3D"xref py py-mod doc=
+utils literal notranslate"><span class=3D"pre">http.cookies</span></code></=
+a> module contains the following notice:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright 2000 by Timothy O'Malley &lt;timo@alum.mit.edu&gt;
+
+               All Rights Reserved
+
+Permission to use, copy, modify, and distribute this software
+and its documentation for any purpose and without fee is hereby
+granted, provided that the above copyright notice appear in all
+copies and that both that copyright notice and this permission
+notice appear in supporting documentation, and that the name of
+Timothy O'Malley  not be used in advertising or publicity
+pertaining to distribution of the software without specific, written
+prior permission.
+
+Timothy O'Malley DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS
+SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS, IN NO EVENT SHALL Timothy O'Malley BE LIABLE FOR
+ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
+ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+</pre></div>
+</div>
+</section>
+<section id=3D"execution-tracing">
+<h3>Execution tracing<a class=3D"headerlink" href=3D"https://docs.python.or=
+g/3.10/license.html#execution-tracing" title=3D"Permalink to this headline"=
+>=C2=B6</a></h3>
+<p>The <a class=3D"reference internal" href=3D"https://docs.python.org/3.10=
+/library/trace.html#module-trace" title=3D"trace: Trace or track Python sta=
+tement execution."><code class=3D"xref py py-mod docutils literal notransla=
+te"><span class=3D"pre">trace</span></code></a> module contains the followi=
+ng notice:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>portions copyright 2001, Autonomous Zones Industries, Inc., all r=
+ights...
+err...  reserved and offered to the public under the terms of the
+Python 2.2 license.
+Author: Zooko O'Whielacronx
+http://zooko.com/
+mailto:zooko@zooko.com
+
+Copyright 2000, Mojam Media, Inc., all rights reserved.
+Author: Skip Montanaro
+
+Copyright 1999, Bioreason, Inc., all rights reserved.
+Author: Andrew Dalke
+
+Copyright 1995-1997, Automatrix, Inc., all rights reserved.
+Author: Skip Montanaro
+
+Copyright 1991-1995, Stichting Mathematisch Centrum, all rights reserved.
+
+
+Permission to use, copy, modify, and distribute this Python software and
+its associated documentation for any purpose without fee is hereby
+granted, provided that the above copyright notice appears in all copies,
+and that both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of neither Automatrix,
+Bioreason or Mojam Media be used in advertising or publicity pertaining to
+distribution of the software without specific, written prior permission.
+</pre></div>
+</div>
+</section>
+<section id=3D"uuencode-and-uudecode-functions">
+<h3>UUencode and UUdecode functions<a class=3D"headerlink" href=3D"https://=
+docs.python.org/3.10/license.html#uuencode-and-uudecode-functions" title=3D=
+"Permalink to this headline">=C2=B6</a></h3>
+<p>The <a class=3D"reference internal" href=3D"https://docs.python.org/3.10=
+/library/uu.html#module-uu" title=3D"uu: Encode and decode files in uuencod=
+e format. (deprecated)"><code class=3D"xref py py-mod docutils literal notr=
+anslate"><span class=3D"pre">uu</span></code></a> module contains the follo=
+wing notice:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright 1994 by Lance Ellinghouse
+Cathedral City, California Republic, United States of America.
+                       All Rights Reserved
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of Lance Ellinghouse
+not be used in advertising or publicity pertaining to distribution
+of the software without specific, written prior permission.
+LANCE ELLINGHOUSE DISCLAIMS ALL WARRANTIES WITH REGARD TO
+THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS, IN NO EVENT SHALL LANCE ELLINGHOUSE CENTRUM BE LIABLE
+FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Modified by Jack Jansen, CWI, July 1995:
+- Use binascii module to do the actual line-by-line conversion
+  between ascii and binary. This results in a 1000-fold speedup. The C
+  version is still 5 times faster, though.
+- Arguments more compliant with Python standard
+</pre></div>
+</div>
+</section>
+<section id=3D"xml-remote-procedure-calls">
+<h3>XML Remote Procedure Calls<a class=3D"headerlink" href=3D"https://docs.=
+python.org/3.10/license.html#xml-remote-procedure-calls" title=3D"Permalink=
+ to this headline">=C2=B6</a></h3>
+<p>The <a class=3D"reference internal" href=3D"https://docs.python.org/3.10=
+/library/xmlrpc.client.html#module-xmlrpc.client" title=3D"xmlrpc.client: X=
+ML-RPC client access."><code class=3D"xref py py-mod docutils literal notra=
+nslate"><span class=3D"pre">xmlrpc.client</span></code></a> module contains=
+ the following notice:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>    The XML-RPC client interface is
+
+Copyright (c) 1999-2002 by Secret Labs AB
+Copyright (c) 1999-2002 by Fredrik Lundh
+
+By obtaining, using, and/or copying this software and/or its
+associated documentation, you agree that you have read, understood,
+and will comply with the following terms and conditions:
+
+Permission to use, copy, modify, and distribute this software and
+its associated documentation for any purpose and without fee is
+hereby granted, provided that the above copyright notice appears in
+all copies, and that both that copyright notice and this permission
+notice appear in supporting documentation, and that the name of
+Secret Labs AB or the author not be used in advertising or publicity
+pertaining to distribution of the software without specific, written
+prior permission.
+
+SECRET LABS AB AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD
+TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANT-
+ABILITY AND FITNESS.  IN NO EVENT SHALL SECRET LABS AB OR THE AUTHOR
+BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY
+DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
+ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
+OF THIS SOFTWARE.
+</pre></div>
+</div>
+</section>
+<section id=3D"test-epoll">
+<h3>test_epoll<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/=
+license.html#test-epoll" title=3D"Permalink to this headline">=C2=B6</a></h=
+3>
+<p>The <code class=3D"xref py py-mod docutils literal notranslate"><span cl=
+ass=3D"pre">test_epoll</span></code> module contains the following notice:<=
+/p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright (c) 2001-2006 Twisted Matrix Laboratories.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</pre></div>
+</div>
+</section>
+<section id=3D"select-kqueue">
+<h3>Select kqueue<a class=3D"headerlink" href=3D"https://docs.python.org/3.=
+10/license.html#select-kqueue" title=3D"Permalink to this headline">=C2=B6<=
+/a></h3>
+<p>The <a class=3D"reference internal" href=3D"https://docs.python.org/3.10=
+/library/select.html#module-select" title=3D"select: Wait for I/O completio=
+n on multiple streams."><code class=3D"xref py py-mod docutils literal notr=
+anslate"><span class=3D"pre">select</span></code></a> module contains the f=
+ollowing notice for the kqueue
+interface:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright (c) 2000 Doug White, 2006 James Knight, 2007 Christian =
+Heimes
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+</pre></div>
+</div>
+</section>
+<section id=3D"siphash24">
+<h3>SipHash24<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/l=
+icense.html#siphash24" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>The file <code class=3D"file docutils literal notranslate"><span class=
+=3D"pre">Python/pyhash.c</span></code> contains Marek Majkowski=E2=80=99 im=
+plementation of
+Dan Bernstein=E2=80=99s SipHash24 algorithm. It contains the following note=
+:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>&lt;MIT License&gt;
+Copyright (c) 2013  Marek Majkowski &lt;marek@popcount.org&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a cop=
+y
+of this software and associated documentation files (the "Software"), to de=
+al
+in the Software without restriction, including without limitation the right=
+s
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+&lt;/MIT License&gt;
+
+Original location:
+   https://github.com/majek/csiphash/
+
+Solution inspired by code from:
+   Samuel Neves (supercop/crypto_auth/siphash24/little)
+   djb (supercop/crypto_auth/siphash24/little2)
+   Jean-Philippe Aumasson (https://131002.net/siphash/siphash24.c)
+</pre></div>
+</div>
+</section>
+<section id=3D"strtod-and-dtoa">
+<h3>strtod and dtoa<a class=3D"headerlink" href=3D"https://docs.python.org/=
+3.10/license.html#strtod-and-dtoa" title=3D"Permalink to this headline">=C2=
+=B6</a></h3>
+<p>The file <code class=3D"file docutils literal notranslate"><span class=
+=3D"pre">Python/dtoa.c</span></code>, which supplies C functions dtoa and
+strtod for conversion of C doubles to and from strings, is derived
+from the file of the same name by David M. Gay, currently available
+from <a class=3D"reference external" href=3D"https://web.archive.org/web/20=
+220517033456/http://www.netlib.org/fp/dtoa.c">https://web.archive.org/web/2=
+0220517033456/http://www.netlib.org/fp/dtoa.c</a>.
+The original file, as retrieved on March 16, 2009, contains the following
+copyright and licensing notice:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>/****************************************************************
+ *
+ * The author of this software is David M. Gay.
+ *
+ * Copyright (c) 1991, 2000, 2001 by Lucent Technologies.
+ *
+ * Permission to use, copy, modify, and distribute this software for any
+ * purpose without fee is hereby granted, provided that this entire notice
+ * is included in all copies of any software which is or includes a copy
+ * or modification of this software and in all copies of the supporting
+ * documentation for such software.
+ *
+ * THIS SOFTWARE IS BEING PROVIDED "AS IS", WITHOUT ANY EXPRESS OR IMPLIED
+ * WARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR LUCENT MAKES ANY
+ * REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY
+ * OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.
+ *
+ ***************************************************************/
+</pre></div>
+</div>
+</section>
+<section id=3D"openssl">
+<h3>OpenSSL<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/lic=
+ense.html#openssl" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>The modules <a class=3D"reference internal" href=3D"https://docs.python.=
+org/3.10/library/hashlib.html#module-hashlib" title=3D"hashlib: Secure hash=
+ and message digest algorithms."><code class=3D"xref py py-mod docutils lit=
+eral notranslate"><span class=3D"pre">hashlib</span></code></a>, <a class=
+=3D"reference internal" href=3D"https://docs.python.org/3.10/library/posix.=
+html#module-posix" title=3D"posix: The most common POSIX system calls (norm=
+ally used via module os). (Unix)"><code class=3D"xref py py-mod docutils li=
+teral notranslate"><span class=3D"pre">posix</span></code></a>, <a class=3D=
+"reference internal" href=3D"https://docs.python.org/3.10/library/ssl.html#=
+module-ssl" title=3D"ssl: TLS/SSL wrapper for socket objects"><code class=
+=3D"xref py py-mod docutils literal notranslate"><span class=3D"pre">ssl</s=
+pan></code></a>, <a class=3D"reference internal" href=3D"https://docs.pytho=
+n.org/3.10/library/crypt.html#module-crypt" title=3D"crypt: The crypt() fun=
+ction used to check Unix passwords. (deprecated) (Unix)"><code class=3D"xre=
+f py py-mod docutils literal notranslate"><span class=3D"pre">crypt</span><=
+/code></a> use
+the OpenSSL library for added performance if made available by the
+operating system. Additionally, the Windows and macOS installers for
+Python may include a copy of the OpenSSL libraries, so we include a copy
+of the OpenSSL license here:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span> LICENSE ISSUES
+ =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+ The OpenSSL toolkit stays under a dual license, i.e. both the conditions o=
+f
+ the OpenSSL License and the original SSLeay license apply to the toolkit.
+ See below for the actual license texts. Actually both licenses are BSD-sty=
+le
+ Open Source licenses. In case of any license issues related to OpenSSL
+ please contact openssl-core@openssl.org.
+
+ OpenSSL License
+ ---------------
+
+   /* =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+    * Copyright (c) 1998-2008 The OpenSSL Project.  All rights reserved.
+    *
+    * Redistribution and use in source and binary forms, with or without
+    * modification, are permitted provided that the following conditions
+    * are met:
+    *
+    * 1. Redistributions of source code must retain the above copyright
+    *    notice, this list of conditions and the following disclaimer.
+    *
+    * 2. Redistributions in binary form must reproduce the above copyright
+    *    notice, this list of conditions and the following disclaimer in
+    *    the documentation and/or other materials provided with the
+    *    distribution.
+    *
+    * 3. All advertising materials mentioning features or use of this
+    *    software must display the following acknowledgment:
+    *    "This product includes software developed by the OpenSSL Project
+    *    for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+    *
+    * 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used=
+ to
+    *    endorse or promote products derived from this software without
+    *    prior written permission. For written permission, please contact
+    *    openssl-core@openssl.org.
+    *
+    * 5. Products derived from this software may not be called "OpenSSL"
+    *    nor may "OpenSSL" appear in their names without prior written
+    *    permission of the OpenSSL Project.
+    *
+    * 6. Redistributions of any form whatsoever must retain the following
+    *    acknowledgment:
+    *    "This product includes software developed by the OpenSSL Project
+    *    for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+    *
+    * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+    * EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+    * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+    * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
+    * ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+    * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+    * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+    * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+    * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+    * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+    * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+    * OF THE POSSIBILITY OF SUCH DAMAGE.
+    * =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+    *
+    * This product includes cryptographic software written by Eric Young
+    * (eay@cryptsoft.com).  This product includes software written by Tim
+    * Hudson (tjh@cryptsoft.com).
+    *
+    */
+
+Original SSLeay License
+-----------------------
+
+   /* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+    * All rights reserved.
+    *
+    * This package is an SSL implementation written
+    * by Eric Young (eay@cryptsoft.com).
+    * The implementation was written so as to conform with Netscapes SSL.
+    *
+    * This library is free for commercial and non-commercial use as long as
+    * the following conditions are aheared to.  The following conditions
+    * apply to all code found in this distribution, be it the RC4, RSA,
+    * lhash, DES, etc., code; not just the SSL code.  The SSL documentation
+    * included with this distribution is covered by the same copyright term=
+s
+    * except that the holder is Tim Hudson (tjh@cryptsoft.com).
+    *
+    * Copyright remains Eric Young's, and as such any Copyright notices in
+    * the code are not to be removed.
+    * If this package is used in a product, Eric Young should be given attr=
+ibution
+    * as the author of the parts of the library used.
+    * This can be in the form of a textual message at program startup or
+    * in documentation (online or textual) provided with the package.
+    *
+    * Redistribution and use in source and binary forms, with or without
+    * modification, are permitted provided that the following conditions
+    * are met:
+    * 1. Redistributions of source code must retain the copyright
+    *    notice, this list of conditions and the following disclaimer.
+    * 2. Redistributions in binary form must reproduce the above copyright
+    *    notice, this list of conditions and the following disclaimer in th=
+e
+    *    documentation and/or other materials provided with the distributio=
+n.
+    * 3. All advertising materials mentioning features or use of this softw=
+are
+    *    must display the following acknowledgement:
+    *    "This product includes cryptographic software written by
+    *     Eric Young (eay@cryptsoft.com)"
+    *    The word 'cryptographic' can be left out if the rouines from the l=
+ibrary
+    *    being used are not cryptographic related :-).
+    * 4. If you include any Windows specific code (or a derivative thereof)=
+ from
+    *    the apps directory (application code) you must include an acknowle=
+dgement:
+    *    "This product includes software written by Tim Hudson (tjh@cryptso=
+ft.com)"
+    *
+    * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+    * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+    * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PU=
+RPOSE
+    * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIAB=
+LE
+    * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUE=
+NTIAL
+    * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOO=
+DS
+    * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+    * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, S=
+TRICT
+    * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY=
+ WAY
+    * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY O=
+F
+    * SUCH DAMAGE.
+    *
+    * The licence and distribution terms for any publically available versi=
+on or
+    * derivative of this code cannot be changed.  i.e. this code cannot sim=
+ply be
+    * copied and put under another distribution licence
+    * [including the GNU Public Licence.]
+    */
+</pre></div>
+</div>
+</section>
+<section id=3D"expat">
+<h3>expat<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/licen=
+se.html#expat" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>The <code class=3D"xref py py-mod docutils literal notranslate"><span cl=
+ass=3D"pre">pyexpat</span></code> extension is built using an included copy=
+ of the expat
+sources unless the build is configured <code class=3D"docutils literal notr=
+anslate"><span class=3D"pre">--with-system-expat</span></code>:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright (c) 1998, 1999, 2000 Thai Open Source Software Center L=
+td
+                               and Clark Cooper
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</pre></div>
+</div>
+</section>
+<section id=3D"libffi">
+<h3>libffi<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/lice=
+nse.html#libffi" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>The <code class=3D"xref py py-mod docutils literal notranslate"><span cl=
+ass=3D"pre">_ctypes</span></code> extension is built using an included copy=
+ of the libffi
+sources unless the build is configured <code class=3D"docutils literal notr=
+anslate"><span class=3D"pre">--with-system-libffi</span></code>:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright (c) 1996-2008  Red Hat, Inc and others.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+``Software''), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ``AS IS'', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+</pre></div>
+</div>
+</section>
+<section id=3D"zlib">
+<h3>zlib<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/licens=
+e.html#zlib" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>The <a class=3D"reference internal" href=3D"https://docs.python.org/3.10=
+/library/zlib.html#module-zlib" title=3D"zlib: Low-level interface to compr=
+ession and decompression routines compatible with gzip."><code class=3D"xre=
+f py py-mod docutils literal notranslate"><span class=3D"pre">zlib</span></=
+code></a> extension is built using an included copy of the zlib
+sources if the zlib version found on the system is too old to be
+used for the build:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright (C) 1995-2011 Jean-loup Gailly and Mark Adler
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation would be
+   appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source distribution.
+
+Jean-loup Gailly        Mark Adler
+jloup@gzip.org          madler@alumni.caltech.edu
+</pre></div>
+</div>
+</section>
+<section id=3D"cfuhash">
+<h3>cfuhash<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/lic=
+ense.html#cfuhash" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>The implementation of the hash table used by the <a class=3D"reference i=
+nternal" href=3D"https://docs.python.org/3.10/library/tracemalloc.html#modu=
+le-tracemalloc" title=3D"tracemalloc: Trace memory allocations."><code clas=
+s=3D"xref py py-mod docutils literal notranslate"><span class=3D"pre">trace=
+malloc</span></code></a> is based
+on the cfuhash project:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright (c) 2005 Don Owens
+All rights reserved.
+
+This code is released under the BSD license:
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+  * Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above
+    copyright notice, this list of conditions and the following
+    disclaimer in the documentation and/or other materials provided
+    with the distribution.
+
+  * Neither the name of the author nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGE.
+</pre></div>
+</div>
+</section>
+<section id=3D"libmpdec">
+<h3>libmpdec<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/li=
+cense.html#libmpdec" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>The <code class=3D"xref py py-mod docutils literal notranslate"><span cl=
+ass=3D"pre">_decimal</span></code> module is built using an included copy o=
+f the libmpdec
+library unless the build is configured <code class=3D"docutils literal notr=
+anslate"><span class=3D"pre">--with-system-libmpdec</span></code>:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright (c) 2008-2020 Stefan Krah. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+</pre></div>
+</div>
+</section>
+<section id=3D"w3c-c14n-test-suite">
+<h3>W3C C14N test suite<a class=3D"headerlink" href=3D"https://docs.python.=
+org/3.10/license.html#w3c-c14n-test-suite" title=3D"Permalink to this headl=
+ine">=C2=B6</a></h3>
+<p>The C14N 2.0 test suite in the <a class=3D"reference internal" href=3D"h=
+ttps://docs.python.org/3.10/library/test.html#module-test" title=3D"test: R=
+egression tests package containing the testing suite for Python."><code cla=
+ss=3D"xref py py-mod docutils literal notranslate"><span class=3D"pre">test=
+</span></code></a> package
+(<code class=3D"docutils literal notranslate"><span class=3D"pre">Lib/test/=
+xmltestdata/c14n-20/</span></code>) was retrieved from the W3C website at
+<a class=3D"reference external" href=3D"https://www.w3.org/TR/xml-c14n2-tes=
+tcases/">https://www.w3.org/TR/xml-c14n2-testcases/</a> and is distributed =
+under the
+3-clause BSD license:</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Copyright (c) 2013 W3C(R) (MIT, ERCIM, Keio, Beihang),
+All Rights Reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+* Redistributions of works must retain the original copyright notice,
+  this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the original copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+* Neither the name of the W3C nor the names of its contributors may be
+  used to endorse or promote products derived from this work without
+  specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</pre></div>
+</div>
+</section>
+<section id=3D"audioop">
+<h3>Audioop<a class=3D"headerlink" href=3D"https://docs.python.org/3.10/lic=
+ense.html#audioop" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>The audioop module uses the code base in g771.c file of the SoX project:=
+</p>
+<div class=3D"highlight-none notranslate"><div class=3D"highlight"><pre><sp=
+an></span>Programming the AdLib/Sound Blaster
+FM Music Chips
+Version 2.0 (24 Feb 1992)
+Copyright (c) 1991, 1992 by Jeffrey S. Lee
+jlee@smylex.uucp
+Warranty and Copyright Policy
+This document is provided on an "as-is" basis, and its author makes
+no warranty or representation, express or implied, with respect to
+its quality performance or fitness for a particular purpose.  In no
+event will the author of this document be liable for direct, indirect,
+special, incidental, or consequential damages arising out of the use
+or inability to use the information contained within.  Use of this
+document is at your own risk.
+This file may be used and copied freely so long as the applicable
+copyright notices are retained, and no modifications are made to the
+text of the document.  No money shall be charged for its distribution
+beyond reasonable shipping, handling and duplication costs, nor shall
+proprietary changes be made to this document so that it cannot be
+distributed freely.  This document may not be included in published
+material or commercial packages without the written consent of its
+author.
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+            <div class=3D"clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class=3D"sphinxsidebar" role=3D"navigation" aria-label=3D"main n=
+avigation">
+        <div class=3D"sphinxsidebarwrapper" style=3D"float: left; margin-ri=
+ght: 0px; width: 217px;">
+  <h3><a href=3D"https://docs.python.org/3.10/contents.html">Table of Conte=
+nts</a></h3>
+  <ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#">History and License</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#history-of-the-software">History of the software</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#terms-and-conditions-for-accessing-or-otherwise-using-python">Te=
+rms and conditions for accessing or otherwise using Python</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#psf-license-agreement-for-python-release">PSF LICENSE AGREEMENT =
+FOR PYTHON 3.10.12</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#beopen-com-license-agreement-for-python-2-0">BEOPEN.COM LICENSE =
+AGREEMENT FOR PYTHON 2.0</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#cnri-license-agreement-for-python-1-6-1">CNRI LICENSE AGREEMENT =
+FOR PYTHON 1.6.1</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#cwi-license-agreement-for-python-0-9-0-through-1-2">CWI LICENSE =
+AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#zero-clause-bsd-license-for-code-in-the-python-release-documenta=
+tion">ZERO-CLAUSE BSD LICENSE FOR CODE IN THE PYTHON 3.10.12 DOCUMENTATION<=
+/a></li>
+</ul>
+</li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#licenses-and-acknowledgements-for-incorporated-software">License=
+s and Acknowledgements for Incorporated Software</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#mersenne-twister">Mersenne Twister</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#sockets">Sockets</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#asynchronous-socket-services">Asynchronous socket services</a></=
+li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#cookie-management">Cookie management</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#execution-tracing">Execution tracing</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#uuencode-and-uudecode-functions">UUencode and UUdecode functions=
+</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#xml-remote-procedure-calls">XML Remote Procedure Calls</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#test-epoll">test_epoll</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#select-kqueue">Select kqueue</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#siphash24">SipHash24</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#strtod-and-dtoa">strtod and dtoa</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#openssl">OpenSSL</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#expat">expat</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#libffi">libffi</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#zlib">zlib</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#cfuhash">cfuhash</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#libmpdec">libmpdec</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#w3c-c14n-test-suite">W3C C14N test suite</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3.10/li=
+cense.html#audioop">Audioop</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class=3D"topless"><a href=3D"https://docs.python.org/3.10/copyright.ht=
+ml" title=3D"previous chapter">Copyright</a></p>
+  <h4>Next topic</h4>
+  <p class=3D"topless"><a href=3D"https://docs.python.org/3.10/distutils/in=
+dex.html" title=3D"next chapter">Distributing Python Modules (Legacy versio=
+n)</a></p>
+  <div role=3D"note" aria-label=3D"source link">
+    <h3>This Page</h3>
+    <ul class=3D"this-page-menu">
+      <li><a href=3D"https://docs.python.org/3.10/bugs.html">Report a Bug</=
+a></li>
+      <li>
+        <a href=3D"https://github.com/python/cpython/blob/3.10/Doc/license.=
+rst" rel=3D"nofollow">Show Source
+        </a>
+      </li>
+    </ul>
+  </div>
+        </div>
+      <div id=3D"sidebarbutton" title=3D"Collapse sidebar" style=3D"border-=
+radius: 0px 5px 5px 0px; color: rgb(68, 68, 68); background-color: rgb(204,=
+ 204, 204); font-size: 1.2em; cursor: pointer; height: 100%; padding-left: =
+1px; margin-left: 218px;"><span style=3D"display: block; position: fixed; t=
+op: 50%;">=C2=AB</span></div></div>
+      <div class=3D"clearer"></div>
+    </div> =20
+    <div class=3D"related" role=3D"navigation" aria-label=3D"related naviga=
+tion">
+      <h3>Navigation</h3>
+      <ul>
+        <li class=3D"right" style=3D"margin-right: 10px">
+          <a href=3D"https://docs.python.org/3.10/genindex.html" title=3D"G=
+eneral Index">index</a></li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3.10/py-modindex.html" title=
+=3D"Python Module Index">modules</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3.10/distutils/index.html" tit=
+le=3D"Distributing Python Modules (Legacy version)">next</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3.10/copyright.html" title=3D"=
+Copyright">previous</a> |</li>
+
+          <li><img src=3D"https://docs.python.org/3.10/_static/py.svg" alt=
+=3D"python logo" style=3D"vertical-align: middle; margin-top: -1px"></li>
+          <li><a href=3D"https://www.python.org/">Python</a> =C2=BB</li>
+          <li class=3D"switchers">
+            <div class=3D"language_switcher_placeholder"><select id=3D"lang=
+uage_select"><option value=3D"en" selected=3D"selected">English</option><op=
+tion value=3D"es">Spanish</option><option value=3D"fr">French</option><opti=
+on value=3D"ja">Japanese</option><option value=3D"ko">Korean</option><optio=
+n value=3D"pt-br">Brazilian Portuguese</option><option value=3D"tr">Turkish=
+</option><option value=3D"zh-cn">Simplified Chinese</option><option value=
+=3D"zh-tw">Traditional Chinese</option></select></div>
+            <div class=3D"version_switcher_placeholder"><select id=3D"versi=
+on_select"><option value=3D"3.13">dev (3.13)</option><option value=3D"3.12"=
+>pre (3.12)</option><option value=3D"3.11">3.11</option><option value=3D"3.=
+10" selected=3D"selected">3.10.12</option><option value=3D"3.9">3.9</option=
+><option value=3D"3.8">3.8</option><option value=3D"3.7">3.7</option><optio=
+n value=3D"3.6">3.6</option><option value=3D"3.5">3.5</option><option value=
+=3D"2.7">2.7</option></select></div>
+          </li>
+          <li>
+             =20
+          </li>
+    <li id=3D"cpython-language-and-version">
+      <a href=3D"https://docs.python.org/3.10/index.html">3.10.12 Documenta=
+tion</a> =C2=BB
+    </li>
+
+        <li class=3D"nav-item nav-item-this"><a href=3D"https://docs.python=
+.org/3.10/license.html">History and License</a></li>
+                <li class=3D"right">
+                   =20
+
+    <div class=3D"inline-search" role=3D"search">
+        <form class=3D"inline-search" action=3D"https://docs.python.org/3.1=
+0/search.html" method=3D"get">
+          <input placeholder=3D"Quick search" aria-label=3D"Quick search" t=
+ype=3D"text" name=3D"q">
+          <input type=3D"submit" value=3D"Go">
+         =20
+         =20
+        </form>
+    </div>
+                     |
+                </li>
+           =20
+      </ul>
+    </div> =20
+    <div class=3D"footer">
+    =C2=A9 <a href=3D"https://docs.python.org/3.10/copyright.html">Copyrigh=
+t</a> 2001-2023, Python Software Foundation.
+    <br>
+    This page is licensed under the Python Software Foundation License Vers=
+ion 2.
+    <br>
+    Examples, recipes, and other code in the documentation are additionally=
+ licensed under the Zero Clause BSD License.
+    <br>
+    See <a href=3D"https://docs.python.org/license.html">History and Licens=
+e</a> for more information.<br>
+    <br>
+
+    The Python Software Foundation is a non-profit corporation.
+<a href=3D"https://www.python.org/psf/donations/">Please donate.</a>
+<br>
+    <br>
+
+    Last updated on Jul 02, 2023.
+    <a href=3D"https://docs.python.org/bugs.html">Found a bug</a>?
+    <br>
+
+    Created using <a href=3D"https://www.sphinx-doc.org/">Sphinx</a> 3.4.3.
+    </div>
+
+   =20
+ =20
+</body></html>
+------MultipartBoundary--nFe43ic2irP2y7PNg5INpmrOg6rnJqsLsYw1R64NUg----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ef8bcdac-f39d-4bec-ac90-5503f7b47722@mhtml.blink
+
+@charset "utf-8";
+
+@media only screen {
+  table.full-width-table { width: 100%; }
+}
+------MultipartBoundary--nFe43ic2irP2y7PNg5INpmrOg6rnJqsLsYw1R64NUg----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.python.org/3.10/_static/pygments.css
+
+@charset "utf-8";
+
+pre { line-height: 125%; }
+
+td.linenos .normal { color: inherit; background-color: transparent; padding=
+-left: 5px; padding-right: 5px; }
+
+span.linenos { color: inherit; background-color: transparent; padding-left:=
+ 5px; padding-right: 5px; }
+
+td.linenos .special { color: rgb(0, 0, 0); background-color: rgb(255, 255, =
+192); padding-left: 5px; padding-right: 5px; }
+
+span.linenos.special { color: rgb(0, 0, 0); background-color: rgb(255, 255,=
+ 192); padding-left: 5px; padding-right: 5px; }
+
+.highlight .hll { background-color: rgb(255, 255, 204); }
+
+.highlight { background: rgb(248, 248, 248); }
+
+.highlight .c { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .err { border: 1px solid rgb(255, 0, 0); }
+
+.highlight .k { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .o { color: rgb(102, 102, 102); }
+
+.highlight .ch { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .cm { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .cp { color: rgb(156, 101, 0); }
+
+.highlight .cpf { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .c1 { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .cs { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .gd { color: rgb(160, 0, 0); }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: rgb(228, 0, 0); }
+
+.highlight .gh { color: rgb(0, 0, 128); font-weight: bold; }
+
+.highlight .gi { color: rgb(0, 132, 0); }
+
+.highlight .go { color: rgb(113, 113, 113); }
+
+.highlight .gp { color: rgb(0, 0, 128); font-weight: bold; }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: rgb(128, 0, 128); font-weight: bold; }
+
+.highlight .gt { color: rgb(0, 68, 221); }
+
+.highlight .kc { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .kd { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .kn { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .kp { color: rgb(0, 128, 0); }
+
+.highlight .kr { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .kt { color: rgb(176, 0, 64); }
+
+.highlight .m { color: rgb(102, 102, 102); }
+
+.highlight .s { color: rgb(186, 33, 33); }
+
+.highlight .na { color: rgb(104, 120, 34); }
+
+.highlight .nb { color: rgb(0, 128, 0); }
+
+.highlight .nc { color: rgb(0, 0, 255); font-weight: bold; }
+
+.highlight .no { color: rgb(136, 0, 0); }
+
+.highlight .nd { color: rgb(170, 34, 255); }
+
+.highlight .ni { color: rgb(113, 113, 113); font-weight: bold; }
+
+.highlight .ne { color: rgb(203, 63, 56); font-weight: bold; }
+
+.highlight .nf { color: rgb(0, 0, 255); }
+
+.highlight .nl { color: rgb(118, 118, 0); }
+
+.highlight .nn { color: rgb(0, 0, 255); font-weight: bold; }
+
+.highlight .nt { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .nv { color: rgb(25, 23, 124); }
+
+.highlight .ow { color: rgb(170, 34, 255); font-weight: bold; }
+
+.highlight .w { color: rgb(187, 187, 187); }
+
+.highlight .mb { color: rgb(102, 102, 102); }
+
+.highlight .mf { color: rgb(102, 102, 102); }
+
+.highlight .mh { color: rgb(102, 102, 102); }
+
+.highlight .mi { color: rgb(102, 102, 102); }
+
+.highlight .mo { color: rgb(102, 102, 102); }
+
+.highlight .sa { color: rgb(186, 33, 33); }
+
+.highlight .sb { color: rgb(186, 33, 33); }
+
+.highlight .sc { color: rgb(186, 33, 33); }
+
+.highlight .dl { color: rgb(186, 33, 33); }
+
+.highlight .sd { color: rgb(186, 33, 33); font-style: italic; }
+
+.highlight .s2 { color: rgb(186, 33, 33); }
+
+.highlight .se { color: rgb(170, 93, 31); font-weight: bold; }
+
+.highlight .sh { color: rgb(186, 33, 33); }
+
+.highlight .si { color: rgb(164, 90, 119); font-weight: bold; }
+
+.highlight .sx { color: rgb(0, 128, 0); }
+
+.highlight .sr { color: rgb(164, 90, 119); }
+
+.highlight .s1 { color: rgb(186, 33, 33); }
+
+.highlight .ss { color: rgb(25, 23, 124); }
+
+.highlight .bp { color: rgb(0, 128, 0); }
+
+.highlight .fm { color: rgb(0, 0, 255); }
+
+.highlight .vc { color: rgb(25, 23, 124); }
+
+.highlight .vg { color: rgb(25, 23, 124); }
+
+.highlight .vi { color: rgb(25, 23, 124); }
+
+.highlight .vm { color: rgb(25, 23, 124); }
+
+.highlight .il { color: rgb(102, 102, 102); }
+------MultipartBoundary--nFe43ic2irP2y7PNg5INpmrOg6rnJqsLsYw1R64NUg----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.python.org/3.10/_static/pydoctheme.css?2022.1
+
+@charset "utf-8";
+
+@import url("default.css");
+
+body { background-color: white; margin-left: 1em; margin-right: 1em; }
+
+.mobile-nav, .menu-wrapper { display: none; }
+
+div.related { margin-bottom: 1.2em; padding: 0.5em 0px; border-bottom: 1px =
+solid rgb(204, 204, 204); margin-top: 0.5em; }
+
+div.related a:hover { color: rgb(0, 149, 196); }
+
+div.related ~ div.related { border-top: 1px solid rgb(204, 204, 204); borde=
+r-bottom: none; }
+
+.related .switchers { display: inline-flex; }
+
+.switchers > div { margin-right: 5px; }
+
+.version_switcher_placeholder, .language_switcher_placeholder { padding-lef=
+t: 5px; background-color: white; }
+
+.inline-search { display: inline; }
+
+form.inline-search input { display: inline; }
+
+form.inline-search input[type=3D"submit"] { width: 40px; }
+
+div.document { display: flex; }
+
+div.sphinxsidebar { float: none; position: sticky; top: 0px; max-height: 10=
+0vh; background-color: rgb(238, 238, 238); border-radius: 5px; line-height:=
+ 130%; font-size: smaller; }
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 { margin-top: 1.5em; }
+
+div.sphinxsidebarwrapper { box-sizing: border-box; height: 100%; overflow: =
+hidden auto; }
+
+div.sphinxsidebarwrapper > h3:first-child { margin-top: 0.2em; }
+
+div.sphinxsidebarwrapper > ul > li > ul > li { margin-bottom: 0.4em; }
+
+div.sphinxsidebar a:hover { color: rgb(0, 149, 196); }
+
+form.inline-search input, div.sphinxsidebar input { font-family: "Lucida Gr=
+ande", Arial, sans-serif; border: 1px solid rgb(153, 153, 153); font-size: =
+smaller; border-radius: 3px; }
+
+div.sphinxsidebar input[type=3D"text"] { max-width: 150px; }
+
+div.body { padding: 0px 0px 0px 1.2em; }
+
+div.body p, div.body dd, div.body li, div.body blockquote { text-align: lef=
+t; line-height: 1.4; }
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h=
+6 { margin: 0px; border: 0px; padding: 0.3em 0px; }
+
+div.body hr { border: 0px; background-color: rgb(204, 204, 204); height: 1p=
+x; }
+
+div.body pre { border-radius: 3px; border: 1px solid rgb(170, 204, 153); }
+
+div.body div.admonition, div.body div.impl-detail { border-radius: 3px; }
+
+div.body div.impl-detail > p { margin: 0px; }
+
+div.body div.seealso { border: 1px solid rgb(221, 221, 102); }
+
+div.body a { color: rgb(0, 114, 170); }
+
+div.body a:visited { color: rgb(99, 99, 187); }
+
+div.body a:hover { color: rgb(0, 176, 228); }
+
+tt, code, pre { font-family: "monospace", monospace; font-size: 96.5%; }
+
+div.body tt, div.body code { border-radius: 3px; }
+
+div.body tt.descname, div.body code.descname { font-size: 120%; }
+
+div.body tt.xref, div.body a tt, div.body code.xref, div.body a code { font=
+-weight: normal; }
+
+table.docutils { border: 1px solid rgb(221, 221, 221); min-width: 20%; bord=
+er-radius: 3px; margin-top: 10px; margin-bottom: 10px; }
+
+table.docutils td, table.docutils th { border-radius: 3px; border: 1px soli=
+d rgb(221, 221, 221) !important; }
+
+table p, table li { text-align: left !important; }
+
+table.docutils th { background-color: rgb(238, 238, 238); padding: 0.3em 0.=
+5em; }
+
+table.docutils td { background-color: white; padding: 0.3em 0.5em; }
+
+table.footnote, table.footnote td { border: 0px !important; }
+
+div.footer { line-height: 150%; margin-top: -2em; text-align: right; width:=
+ auto; margin-right: 10px; }
+
+div.footer a:hover { color: rgb(0, 149, 196); }
+
+.refcount { color: rgb(0, 102, 0); }
+
+.stableabi { color: rgb(34, 34, 153); }
+
+.highlight { background: none !important; }
+
+dl > dt span ~ em { font-family: "monospace", monospace; }
+
+.toctree-wrapper ul { padding-left: 20px; }
+
+@media (max-width: 1023px) {
+  div.body { min-width: 100%; padding: 0px; font-size: 0.875rem; }
+  div.bodywrapper { margin: 0px; }
+  div.body h1 { font-size: 1.625rem; }
+  div.body h2 { font-size: 1.25rem; }
+  div.body h3, div.body h4, div.body h5 { font-size: 1rem; }
+  div.body ul { padding-inline-start: 1rem; }
+  div.body blockquote { margin-inline: 1rem 0px; }
+  div.related, .sphinxsidebar { display: none; }
+  html { scroll-padding-top: 40px; }
+  .mobile-nav { display: block; height: 40px; width: 100%; position: fixed;=
+ top: 0px; left: 0px; background-color: white; box-shadow: rgba(0, 0, 0, 0.=
+25) 0px 0px 2px 0px; z-index: 1; }
+  .mobile-nav * { box-sizing: border-box; }
+  .nav-content { position: absolute; z-index: 2; left: 0px; top: 0px; heigh=
+t: 40px; width: 100%; max-width: 100vw; padding: 0px 1rem 0px 45px; display=
+: flex; align-items: center; background-color: white; }
+  .nav-logo { margin-right: 0.7rem; display: flex; flex: 0 0 auto; }
+  .nav-content img { width: 20px; height: auto; }
+  .version_switcher_placeholder { flex: 0 1 0px; margin-right: 1rem; }
+  .nav-content .search { display: flex; flex: 1 1 auto; align-items: center=
+; padding: 0px 0px 0px 2px; border: 1px solid rgb(169, 169, 169); height: 3=
+0px; overflow: hidden; }
+  .nav-content .search:hover { box-shadow: rgba(32, 33, 36, 0.28) 0px 1px 6=
+px 0px; border-color: rgba(223, 225, 229, 0); }
+  .nav-content .search input[type=3D"text"] { border: 0px; outline: 0px; bo=
+x-shadow: none; width: 40px; height: 28px; flex: 1 1 auto; }
+  .nav-content .search input[type=3D"submit"] { height: 100%; appearance: n=
+one; border-width: 1px; border-style: solid; border-color: transparent tran=
+sparent transparent rgb(169, 169, 169); border-image: initial; box-shadow: =
+none; cursor: pointer; background-color: rgb(240, 240, 240); margin-right: =
+0px; }
+  .nav-content .search input[type=3D"submit"]:hover { border-color: rgb(169=
+, 169, 169); }
+  .nav-content .search svg { flex: 0 0 20px; fill: rgb(51, 51, 51); }
+  .toggler__input { width: 40px; height: 40px; left: 0px; opacity: 0; posit=
+ion: absolute; z-index: 3; margin: 0px; }
+  .toggler__label { width: 40px; height: 40px; margin: 0px; position: absol=
+ute; cursor: pointer; top: 0px; left: 0px; background-color: transparent; b=
+order: 1px solid white; box-shadow: none; z-index: 3; display: flex; align-=
+items: center; justify-content: center; padding: 0px 8px; }
+  .toggler__label:focus { background-color: rgb(238, 238, 238); border: 1px=
+ solid rgb(237, 237, 237); box-shadow: rgba(0, 0, 0, 0.25) 1px 0px 2px 0px;=
+ }
+  .toggler__label:hover { background-color: rgb(238, 238, 238); border: 1px=
+ solid rgb(237, 237, 237); box-shadow: rgba(0, 0, 0, 0.25) 1px 0px 2px 0px;=
+ }
+  .toggler__label > span { position: relative; flex: 0 0 auto; height: 2px;=
+ width: 100%; background: rgb(68, 68, 68); transition: all 400ms ease 0s; }
+  .toggler__label > span::before, .toggler__label > span::after { content: =
+""; height: 2px; width: 100%; background: inherit; position: absolute; left=
+: 0px; top: -8px; }
+  .toggler__label > span::after { top: 8px; }
+  .toggler__input:checked ~ .toggler__label span { transform: rotate(135deg=
+); }
+  .toggler__input:checked ~ .toggler__label span::before { transform: rotat=
+e(90deg); }
+  .toggler__input:checked ~ .toggler__label span::before, .toggler__input:c=
+hecked ~ .toggler__label span::after { top: 0px; }
+  .toggler__input:checked:hover ~ .toggler__label span { transform: rotate(=
+315deg); }
+  .toggler__input:checked ~ .menu-wrapper { visibility: visible; left: 0px;=
+ }
+  .menu-wrapper { display: block; position: fixed; top: 0px; transition: le=
+ft 400ms ease 0s; left: -310px; width: 300px; height: 100%; background-colo=
+r: rgb(238, 238, 238); box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px; overflo=
+w-y: auto; }
+  .menu-wrapper.open { visibility: visible; left: 0px; }
+  .menu { padding: 40px 10px 30px 20px; }
+  .menu-wrapper h3, .menu-wrapper h4 { margin-bottom: 0px; font-weight: nor=
+mal; }
+  .menu-wrapper h4 { font-size: 1.3em; }
+  .menu-wrapper h3 { color: rgb(68, 68, 68); font-size: 1.4em; }
+  .menu-wrapper h3 + p, .menu-wrapper h4 + p { margin-top: 0.5rem; }
+  .menu a { font-size: smaller; color: rgb(68, 68, 68); text-decoration: no=
+ne; }
+  .menu ul { list-style: none; line-height: 1.4; overflow-wrap: break-word;=
+ padding-left: 0px; }
+  .menu ul ul { margin-left: 20px; list-style: square; }
+  .menu ul li { margin-bottom: 0.5rem; }
+  .language_switcher_placeholder, .version_switcher_placeholder { position:=
+ relative; border: 1px solid rgb(168, 168, 168); height: 30px; padding-righ=
+t: 7px; }
+  .language_switcher_placeholder { margin-top: 2rem; }
+  .language_switcher_placeholder::after, .version_switcher_placeholder::aft=
+er { content: url("../_static/caret-down.svg"); position: absolute; top: 7p=
+x; width: 15px; height: 15px; right: 0px; pointer-events: none; }
+  .language_switcher_placeholder select, .version_switcher_placeholder sele=
+ct { appearance: none; border: 0px; height: 100%; background-color: white; =
+}
+  .language_switcher_placeholder:focus-visible, .version_switcher_placehold=
+er:focus-visible { outline-offset: 5px; }
+  .language_switcher_placeholder select { width: 100%; }
+  .document { padding-top: 40px; position: relative; z-index: 0; }
+  .responsive-table__container { width: 100%; overflow-x: auto; }
+}
+------MultipartBoundary--nFe43ic2irP2y7PNg5INpmrOg6rnJqsLsYw1R64NUg----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.python.org/3.10/_static/default.css
+
+@charset "utf-8";
+
+@import url("classic.css");
+------MultipartBoundary--nFe43ic2irP2y7PNg5INpmrOg6rnJqsLsYw1R64NUg----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.python.org/3.10/_static/classic.css
+
+@charset "utf-8";
+
+@import url("basic.css");
+
+html { background-color: rgb(255, 255, 255); }
+
+body { font-family: "Lucida Grande", Arial, sans-serif; font-size: 100%; ba=
+ckground-color: white; color: rgb(0, 0, 0); margin: 0px; padding: 0px; }
+
+div.document { background-color: white; }
+
+div.documentwrapper { float: left; width: 100%; }
+
+div.bodywrapper { margin: 0px 0px 0px 230px; }
+
+div.body { background-color: white; color: rgb(34, 34, 34); padding: 0px 20=
+px 30px; }
+
+div.footer { color: rgb(85, 85, 85); width: 100%; padding: 9px 0px; text-al=
+ign: center; font-size: 75%; }
+
+div.footer a { color: rgb(85, 85, 85); text-decoration: underline; }
+
+div.related { background-color: white; line-height: 30px; color: rgb(102, 1=
+02, 102); }
+
+div.related a { color: rgb(68, 68, 68); }
+
+div.sphinxsidebar { }
+
+div.sphinxsidebar h3 { font-family: "Lucida Grande", Arial, sans-serif; col=
+or: rgb(68, 68, 68); font-size: 1.4em; font-weight: normal; margin: 0px; pa=
+dding: 0px; }
+
+div.sphinxsidebar h3 a { color: rgb(68, 68, 68); }
+
+div.sphinxsidebar h4 { font-family: "Lucida Grande", Arial, sans-serif; col=
+or: rgb(68, 68, 68); font-size: 1.3em; font-weight: normal; margin: 5px 0px=
+ 0px; padding: 0px; }
+
+div.sphinxsidebar p { color: rgb(68, 68, 68); }
+
+div.sphinxsidebar p.topless { margin: 5px 10px 10px; }
+
+div.sphinxsidebar ul { margin: 10px; padding: 0px; color: rgb(68, 68, 68); =
+}
+
+div.sphinxsidebar a { color: rgb(68, 68, 68); }
+
+div.sphinxsidebar input { border: 1px solid rgb(68, 68, 68); font-family: s=
+ans-serif; font-size: 1em; }
+
+div#sidebarbutton { background-color: rgb(60, 110, 131); }
+
+a { color: rgb(0, 144, 192); text-decoration: none; }
+
+a:visited { color: rgb(0, 96, 143); text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h=
+6 { font-family: "Lucida Grande", Arial, sans-serif; background-color: whit=
+e; font-weight: normal; color: rgb(26, 26, 26); border-bottom: 1px solid rg=
+b(204, 204, 204); margin: 20px -20px 10px; padding: 3px 0px 3px 10px; }
+
+div.body h1 { margin-top: 0px; font-size: 200%; }
+
+div.body h2 { font-size: 160%; }
+
+div.body h3 { font-size: 140%; }
+
+div.body h4 { font-size: 120%; }
+
+div.body h5 { font-size: 110%; }
+
+div.body h6 { font-size: 100%; }
+
+a.headerlink { color: rgb(170, 170, 170); font-size: 0.8em; padding: 0px 4p=
+x; text-decoration: none; }
+
+a.headerlink:hover { background-color: rgb(170, 170, 170); color: white; }
+
+div.body p, div.body dd, div.body li, div.body blockquote { text-align: jus=
+tify; line-height: 130%; }
+
+div.admonition p.admonition-title + p { display: inline; }
+
+div.admonition p { margin-bottom: 5px; }
+
+div.admonition pre { margin-bottom: 5px; }
+
+div.admonition ul, div.admonition ol { margin-bottom: 5px; }
+
+div.note { background-color: rgb(238, 238, 238); border: 1px solid rgb(204,=
+ 204, 204); }
+
+div.seealso { background-color: rgb(255, 255, 204); border: 1px solid rgb(2=
+55, 255, 102); }
+
+div.topic { background-color: rgb(238, 238, 238); }
+
+div.warning { background-color: rgb(255, 228, 228); border: 1px solid rgb(2=
+55, 102, 102); }
+
+p.admonition-title { display: inline; }
+
+p.admonition-title::after { content: ":"; }
+
+pre { padding: 5px; background-color: rgb(238, 255, 204); color: rgb(51, 51=
+, 51); line-height: 120%; border-top: 1px solid rgb(170, 204, 153); border-=
+bottom: 1px solid rgb(170, 204, 153); border-image: initial; border-left: n=
+one; border-right: none; }
+
+code { background-color: rgb(236, 240, 243); padding: 0px 1px; font-size: 0=
+.95em; }
+
+th, dl.field-list > dt { background-color: rgb(238, 221, 238); }
+
+.warning code { background: rgb(239, 194, 194); }
+
+.note code { background: rgb(214, 214, 214); }
+
+.viewcode-back { font-family: "Lucida Grande", Arial, sans-serif; }
+
+div.viewcode-block:target { background-color: rgb(244, 222, 191); border-to=
+p: 1px solid rgb(170, 204, 153); border-bottom: 1px solid rgb(170, 204, 153=
+); }
+
+div.code-block-caption { color: rgb(239, 239, 239); background-color: rgb(2=
+8, 78, 99); }
+------MultipartBoundary--nFe43ic2irP2y7PNg5INpmrOg6rnJqsLsYw1R64NUg----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.python.org/3.10/_static/basic.css
+
+@charset "utf-8";
+
+div.clearer { clear: both; }
+
+div.section::after { display: block; content: ""; clear: left; }
+
+div.related { width: 100%; font-size: 90%; }
+
+div.related h3 { display: none; }
+
+div.related ul { margin: 0px; padding: 0px 0px 0px 10px; list-style: none; =
+}
+
+div.related li { display: inline; }
+
+div.related li.right { float: right; margin-right: 5px; }
+
+div.sphinxsidebarwrapper { padding: 10px 5px 0px 10px; }
+
+div.sphinxsidebar { float: left; width: 230px; margin-left: -100%; font-siz=
+e: 90%; overflow-wrap: break-word; }
+
+div.sphinxsidebar ul { list-style: none; }
+
+div.sphinxsidebar ul ul, div.sphinxsidebar ul.want-points { margin-left: 20=
+px; list-style: square; }
+
+div.sphinxsidebar ul ul { margin-top: 0px; margin-bottom: 0px; }
+
+div.sphinxsidebar form { margin-top: 10px; }
+
+div.sphinxsidebar input { border: 1px solid rgb(152, 219, 204); font-family=
+: sans-serif; font-size: 1em; }
+
+div.sphinxsidebar #searchbox form.search { overflow: hidden; }
+
+div.sphinxsidebar #searchbox input[type=3D"text"] { float: left; width: 80%=
+; padding: 0.25em; box-sizing: border-box; }
+
+div.sphinxsidebar #searchbox input[type=3D"submit"] { float: left; width: 2=
+0%; border-left: none; padding: 0.25em; box-sizing: border-box; }
+
+img { border: 0px; max-width: 100%; }
+
+ul.search { margin: 10px 0px 0px 20px; padding: 0px; }
+
+ul.search li { padding: 5px 0px 5px 20px; background-image: url("file.png")=
+; background-repeat: no-repeat; background-position: 0px 7px; }
+
+ul.search li a { font-weight: bold; }
+
+ul.search li div.context { color: rgb(136, 136, 136); margin: 2px 0px 0px 3=
+0px; text-align: left; }
+
+ul.keywordmatches li.goodmatch a { font-weight: bold; }
+
+table.contentstable { width: 90%; margin-left: auto; margin-right: auto; }
+
+table.contentstable p.biglink { line-height: 150%; }
+
+a.biglink { font-size: 1.3em; }
+
+span.linkdescr { font-style: italic; padding-top: 5px; font-size: 90%; }
+
+table.indextable { width: 100%; }
+
+table.indextable td { text-align: left; vertical-align: top; }
+
+table.indextable ul { margin-top: 0px; margin-bottom: 0px; list-style-type:=
+ none; }
+
+table.indextable > tbody > tr > td > ul { padding-left: 0em; }
+
+table.indextable tr.pcap { height: 10px; }
+
+table.indextable tr.cap { margin-top: 10px; background-color: rgb(242, 242,=
+ 242); }
+
+img.toggler { margin-right: 3px; margin-top: 3px; cursor: pointer; }
+
+div.modindex-jumpbox { border-top: 1px solid rgb(221, 221, 221); border-bot=
+tom: 1px solid rgb(221, 221, 221); margin: 1em 0px; padding: 0.4em; }
+
+div.genindex-jumpbox { border-top: 1px solid rgb(221, 221, 221); border-bot=
+tom: 1px solid rgb(221, 221, 221); margin: 1em 0px; padding: 0.4em; }
+
+table.modindextable td { padding: 2px; border-collapse: collapse; }
+
+div.body { min-width: 450px; max-width: 800px; }
+
+div.body p, div.body dd, div.body li, div.body blockquote { hyphens: auto; =
+}
+
+a.headerlink { visibility: hidden; }
+
+a.brackets::before, span.brackets > a::before { content: "["; }
+
+a.brackets::after, span.brackets > a::after { content: "]"; }
+
+h1:hover > a.headerlink, h2:hover > a.headerlink, h3:hover > a.headerlink, =
+h4:hover > a.headerlink, h5:hover > a.headerlink, h6:hover > a.headerlink, =
+dt:hover > a.headerlink, caption:hover > a.headerlink, p.caption:hover > a.=
+headerlink, div.code-block-caption:hover > a.headerlink { visibility: visib=
+le; }
+
+div.body p.caption { text-align: inherit; }
+
+div.body td { text-align: left; }
+
+.first { margin-top: 0px !important; }
+
+p.rubric { margin-top: 30px; font-weight: bold; }
+
+img.align-left, .figure.align-left, object.align-left { clear: left; float:=
+ left; margin-right: 1em; }
+
+img.align-right, .figure.align-right, object.align-right { clear: right; fl=
+oat: right; margin-left: 1em; }
+
+img.align-center, .figure.align-center, object.align-center { display: bloc=
+k; margin-left: auto; margin-right: auto; }
+
+img.align-default, .figure.align-default { display: block; margin-left: aut=
+o; margin-right: auto; }
+
+.align-left { text-align: left; }
+
+.align-center { text-align: center; }
+
+.align-default { text-align: center; }
+
+.align-right { text-align: right; }
+
+div.sidebar { margin: 0px 0px 0.5em 1em; border: 1px solid rgb(221, 221, 18=
+7); padding: 7px; background-color: rgb(255, 255, 238); width: 40%; float: =
+right; clear: right; overflow-x: auto; }
+
+p.sidebar-title { font-weight: bold; }
+
+div.admonition, div.topic, blockquote { clear: left; }
+
+div.topic { border: 1px solid rgb(204, 204, 204); padding: 7px; margin: 10p=
+x 0px; }
+
+p.topic-title { font-size: 1.1em; font-weight: bold; margin-top: 10px; }
+
+div.admonition { margin-top: 10px; margin-bottom: 10px; padding: 7px; }
+
+div.admonition dt { font-weight: bold; }
+
+p.admonition-title { margin: 0px 10px 5px 0px; font-weight: bold; }
+
+div.body p.centered { text-align: center; margin-top: 25px; }
+
+div.sidebar > :last-child, div.topic > :last-child, div.admonition > :last-=
+child { margin-bottom: 0px; }
+
+div.sidebar::after, div.topic::after, div.admonition::after, blockquote::af=
+ter { display: block; content: ""; clear: both; }
+
+table.docutils { margin-top: 10px; margin-bottom: 10px; border: 0px; border=
+-collapse: collapse; }
+
+table.align-center { margin-left: auto; margin-right: auto; }
+
+table.align-default { margin-left: auto; margin-right: auto; }
+
+table caption span.caption-number { font-style: italic; }
+
+table caption span.caption-text { }
+
+table.docutils td, table.docutils th { padding: 1px 8px 1px 5px; border-wid=
+th: 0px 0px 1px; border-top-style: initial; border-top-color: initial; bord=
+er-left-style: initial; border-left-color: initial; border-right-style: ini=
+tial; border-right-color: initial; border-bottom-style: solid; border-botto=
+m-color: rgb(170, 170, 170); }
+
+table.footnote td, table.footnote th { border: 0px !important; }
+
+th { text-align: left; padding-right: 5px; }
+
+table.citation { border-left: 1px solid gray; margin-left: 1px; }
+
+table.citation td { border-bottom: none; }
+
+th > :first-child, td > :first-child { margin-top: 0px; }
+
+th > :last-child, td > :last-child { margin-bottom: 0px; }
+
+div.figure { margin: 0.5em; padding: 0.5em; }
+
+div.figure p.caption { padding: 0.3em; }
+
+div.figure p.caption span.caption-number { font-style: italic; }
+
+div.figure p.caption span.caption-text { }
+
+table.field-list td, table.field-list th { border: 0px !important; }
+
+.field-list ul { margin: 0px; padding-left: 1em; }
+
+.field-list p { margin: 0px; }
+
+.field-name { hyphens: manual; }
+
+table.hlist { margin: 1em 0px; }
+
+table.hlist td { vertical-align: top; }
+
+ol.arabic { list-style: decimal; }
+
+ol.loweralpha { list-style: lower-alpha; }
+
+ol.upperalpha { list-style: upper-alpha; }
+
+ol.lowerroman { list-style: lower-roman; }
+
+ol.upperroman { list-style: upper-roman; }
+
+:not(li) > ol > li:first-child > :first-child, :not(li) > ul > li:first-chi=
+ld > :first-child { margin-top: 0px; }
+
+:not(li) > ol > li:last-child > :last-child, :not(li) > ul > li:last-child =
+> :last-child { margin-bottom: 0px; }
+
+ol.simple ol p, ol.simple ul p, ul.simple ol p, ul.simple ul p { margin-top=
+: 0px; }
+
+ol.simple > li:not(:first-child) > p, ul.simple > li:not(:first-child) > p =
+{ margin-top: 0px; }
+
+ol.simple p, ul.simple p { margin-bottom: 0px; }
+
+dl.footnote > dt, dl.citation > dt { float: left; margin-right: 0.5em; }
+
+dl.footnote > dd, dl.citation > dd { margin-bottom: 0em; }
+
+dl.footnote > dd::after, dl.citation > dd::after { content: ""; clear: both=
+; }
+
+dl.field-list { display: grid; grid-template-columns: fit-content(30%) auto=
+; }
+
+dl.field-list > dt { font-weight: bold; word-break: break-word; padding-lef=
+t: 0.5em; padding-right: 5px; }
+
+dl.field-list > dt::after { content: ":"; }
+
+dl.field-list > dd { padding-left: 0.5em; margin-top: 0em; margin-left: 0em=
+; margin-bottom: 0em; }
+
+dl { margin-bottom: 15px; }
+
+dd > :first-child { margin-top: 0px; }
+
+dd ul, dd table { margin-bottom: 10px; }
+
+dd { margin-top: 3px; margin-bottom: 10px; margin-left: 30px; }
+
+dl > dd:last-child, dl > dd:last-child > :last-child { margin-bottom: 0px; =
+}
+
+dt:target, span.highlighted { background-color: rgb(251, 229, 78); }
+
+rect.highlighted { fill: rgb(251, 229, 78); }
+
+dl.glossary dt { font-weight: bold; font-size: 1.1em; }
+
+.optional { font-size: 1.3em; }
+
+.sig-paren { font-size: larger; }
+
+.versionmodified { font-style: italic; }
+
+.system-message { background-color: rgb(255, 221, 170); padding: 5px; borde=
+r: 3px solid red; }
+
+.footnote:target { background-color: rgb(255, 255, 170); }
+
+.line-block { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+.line-block .line-block { margin-top: 0px; margin-bottom: 0px; margin-left:=
+ 1.5em; }
+
+.guilabel, .menuselection { font-family: sans-serif; }
+
+.accelerator { text-decoration: underline; }
+
+.classifier { font-style: oblique; }
+
+.classifier::before { font-style: normal; margin: 0.5em; content: ":"; }
+
+abbr, acronym { border-bottom: 1px dotted; cursor: help; }
+
+pre { overflow: auto hidden; }
+
+pre, div[class*=3D"highlight-"] { clear: both; }
+
+span.pre { hyphens: none; }
+
+div[class*=3D"highlight-"] { margin: 1em 0px; }
+
+td.linenos pre { border: 0px; background-color: transparent; color: rgb(170=
+, 170, 170); }
+
+table.highlighttable { display: block; }
+
+table.highlighttable tbody { display: block; }
+
+table.highlighttable tr { display: flex; }
+
+table.highlighttable td { margin: 0px; padding: 0px; }
+
+table.highlighttable td.linenos { padding-right: 0.5em; }
+
+table.highlighttable td.code { flex: 1 1 0%; overflow: hidden; }
+
+.highlight .hll { display: block; }
+
+div.highlight pre, table.highlighttable pre { margin: 0px; }
+
+div.code-block-caption + div { margin-top: 0px; }
+
+div.code-block-caption { margin-top: 1em; padding: 2px 5px; font-size: smal=
+l; }
+
+div.code-block-caption code { background-color: transparent; }
+
+table.highlighttable td.linenos, span.linenos, div.doctest > div.highlight =
+span.gp { user-select: none; }
+
+div.code-block-caption span.caption-number { padding: 0.1em 0.3em; font-sty=
+le: italic; }
+
+div.code-block-caption span.caption-text { }
+
+div.literal-block-wrapper { margin: 1em 0px; }
+
+code.descname { background-color: transparent; font-weight: bold; font-size=
+: 1.2em; }
+
+code.descclassname { background-color: transparent; }
+
+code.xref, a code { background-color: transparent; font-weight: bold; }
+
+h1 code, h2 code, h3 code, h4 code, h5 code, h6 code { background-color: tr=
+ansparent; }
+
+.viewcode-link { float: right; }
+
+.viewcode-back { float: right; font-family: sans-serif; }
+
+div.viewcode-block:target { margin: -1px -10px; padding: 0px 10px; }
+
+img.math { vertical-align: middle; }
+
+div.body div.math p { text-align: center; }
+
+span.eqno { float: right; }
+
+span.eqno a.headerlink { position: absolute; z-index: 1; }
+
+div.math:hover a.headerlink { visibility: visible; }
+
+@media print {
+  div.document, div.documentwrapper, div.bodywrapper { width: 100%; margin:=
+ 0px !important; }
+  div.sphinxsidebar, div.related, div.footer, #top-link { display: none; }
+}
+------MultipartBoundary--nFe43ic2irP2y7PNg5INpmrOg6rnJqsLsYw1R64NUg----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.python.org/3.10/_static/py.svg
+
+<svg width=3D"16" height=3D"16" viewBox=3D"0 0 16 16" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path d=3D"M7.90472 0.00013087C7.24498 0.00316295 6.61493 0.0588153 6.06056=
+ 0.15584C4.42744 0.441207 4.13093 1.0385 4.13093 2.14002V3.59479H7.99018V4.=
+07971H4.13093H2.68259C1.56098 4.07971 0.578874 4.7465 0.271682 6.01495C-0.0=
+826595 7.4689 -0.0983765 8.37618 0.271682 9.89434C0.546011 11.0244 1.20115 =
+11.8296 2.32275 11.8296H3.64965V10.0856C3.64965 8.82574 4.75178 7.71441 6.0=
+6056 7.71441H9.91531C10.9883 7.71441 11.8449 6.84056 11.8449 5.77472V2.1400=
+2C11.8449 1.10556 10.9626 0.328486 9.91531 0.15584C9.25235 0.046687 8.56447=
+ -0.00290121 7.90472 0.00013087ZM5.81767 1.17017C6.2163 1.17017 6.54184 1.4=
+9742 6.54184 1.89978C6.54184 2.30072 6.2163 2.62494 5.81767 2.62494C5.41761=
+ 2.62494 5.0935 2.30072 5.0935 1.89978C5.0935 1.49742 5.41761 1.17017 5.817=
+67 1.17017Z" fill=3D"url(#paint0_linear)"/>
+<path d=3D"M12.3262 4.07971V5.77472C12.3262 7.08883 11.1998 8.19488 9.9153 =
+8.19488H6.06055C5.00466 8.19488 4.13092 9.0887 4.13092 10.1346V13.7693C4.13=
+092 14.8037 5.04038 15.4122 6.06055 15.709C7.28217 16.0642 8.45364 16.1285 =
+9.9153 15.709C10.8869 15.4307 11.8449 14.8708 11.8449 13.7693V12.3145H7.990=
+17V11.8296H11.8449H13.7746C14.8962 11.8296 15.3141 11.0558 15.7042 9.89434C=
+16.1071 8.69865 16.09 7.5488 15.7042 6.01495C15.427 4.91058 14.8976 4.07971=
+ 13.7746 4.07971H12.3262ZM10.1582 13.2843C10.5583 13.2843 10.8824 13.6086 1=
+0.8824 14.0095C10.8824 14.4119 10.5583 14.7391 10.1582 14.7391C9.75955 14.7=
+391 9.43402 14.4119 9.43402 14.0095C9.43402 13.6086 9.75955 13.2843 10.1582=
+ 13.2843Z" fill=3D"url(#paint1_linear)"/>
+<defs>
+<linearGradient id=3D"paint0_linear" x1=3D"1.25961e-08" y1=3D"1.08223e-08" =
+x2=3D"8.81664" y2=3D"7.59597" gradientUnits=3D"userSpaceOnUse">
+<stop stop-color=3D"#5A9FD4"/>
+<stop offset=3D"1" stop-color=3D"#306998"/>
+</linearGradient>
+<linearGradient id=3D"paint1_linear" x1=3D"10.0654" y1=3D"13.8872" x2=3D"6.=
+91912" y2=3D"9.42957" gradientUnits=3D"userSpaceOnUse">
+<stop stop-color=3D"#FFD43B"/>
+<stop offset=3D"1" stop-color=3D"#FFE873"/>
+</linearGradient>
+</defs>
+</svg>=0A
+------MultipartBoundary--nFe43ic2irP2y7PNg5INpmrOg6rnJqsLsYw1R64NUg------
